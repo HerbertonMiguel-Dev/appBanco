@@ -18,7 +18,8 @@ export default function App() {
 
   // Função chamada ao clicar no botão "Abrir Conta"
   function enviarDados() {
-    if (nome === '' || idade === '') {  // Verifica se os campos nome e idade estão preenchidos
+    // Verifica se os campos nome e idade estão preenchidos
+    if (nome === '' || idade === '') {  
       alert('Preencha todos dados corretamente!');
       return;
     }
